@@ -1,6 +1,6 @@
 //business logic
-var player1="";
-var player2="";
+var player1="player1";
+var player2="player2";
 
 var throwdice = function () {
   return Math.floor(6*Math.random())+1;
@@ -17,7 +17,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
   this.tempscore = 0;
-  alert("Sorry  you rolled a 1! Your turn is over!")
+  alert("Sorry you rolled a 1! Your turn is over!")
   // this.changeturn();
   } else {
   this.tempscore += this.roll;
@@ -48,7 +48,7 @@ Player.prototype.winnerCheck = function () {
 }
 
 Player.prototype.newGame = function () {
-  
+
 // User Interface
 $(document).ready(function() {
   $("button#player1-roll").click(function(event){
