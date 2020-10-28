@@ -1,0 +1,32 @@
+.container{
+  border: 12px solid red;
+  padding: 20px;
+  background-color: #FFC5C5;
+  font-family: Candara;
+  font-size: 20px;
+  font-weight: 400;
+}
+.play {
+  font-family: Candara;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen (min-width: 480px) and (max-width: 767px) {
+  body {
+    border: 6px solid red;
+    padding: 20px;
+    background-color: #FFC5C5;
+    font-family: Candara;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 20px;
+    background-color: #FFC5C5;
+    font-family: Candara;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
