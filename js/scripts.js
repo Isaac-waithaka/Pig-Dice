@@ -1,4 +1,4 @@
-//business logic
+//Business logic
 var player1="player1";
 var player2="player2";
 
@@ -80,5 +80,5 @@ $(document).ready(function() {
     $("#die-roll-2").empty();
     player2.winnerCheck();
   });
-  
+
 });
