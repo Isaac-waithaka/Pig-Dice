@@ -24,7 +24,7 @@ The rules of the game are:
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-* Click [Pig Dice Game](https://Isaac-waithaka.github.io/Pig-Dice)To Play
+* Type  https://Isaac-waithaka.github.io/Pig-Dice  in your Browser To Play
 
 
 ## Technologies Used
