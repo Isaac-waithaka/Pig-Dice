@@ -80,5 +80,4 @@ $(document).ready(function() {
     $("#die-roll-2").empty();
     player2.winnerCheck();
   });
-
 });
