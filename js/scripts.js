@@ -49,7 +49,7 @@ Player.prototype.winnerCheck = function () {
 
 Player.prototype.newGame = function () {
 
-// User Interface
+// User Interface Logic
 $(document).ready(function() {
   $("button#player1-roll").click(function(event){
     player1.roll = throwdice();
